@@ -1,0 +1,33 @@
+.card{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    background:  #b6bcdc;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+
+    div{
+        height: 80%;
+        width: 80%;
+        background: none;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    img{
+        height: 400px;
+        border-radius: 20px;
+    }
+}
+
+.score{
+    background: $dark-gradient;
+    display: grid;
+    place-items: center;
+    height: 100px;
+    font-size: 80px;
+    width: 100%;
+}

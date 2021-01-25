@@ -1,0 +1,49 @@
+html, body{
+    overscroll-behavior: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: 'Karla';
+}
+
+.body{
+    min-height: 100vh;
+    width: 100%;
+    background: none;
+}
+
+header{
+    height: 150px;
+    background-image: $blue-gradient;
+    font-size: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+.container{
+    background: $red-gradient;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px 0px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-image: $blue-gradient;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0px;
+}
+button{
+    height: 150px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgb(249, 172, 6);
+    font-size: 80px;
+    place-self: center;
+}

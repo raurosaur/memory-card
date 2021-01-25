@@ -1,0 +1,33 @@
+@media screen and (max-width: 400px){
+    header{
+        font-size: 50px;
+        height: 130px;
+    }    
+    .container{
+        min-height: 300px;
+    }
+    footer{
+        height: 30px;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .card{
+        height: 250px;
+        width: 200px;
+        div{
+            background: none;
+            img{
+                height: 200px;
+            }
+        }
+    }
+    .score{
+        font-size: 50px;
+    }
+    button{
+        height: 100px;
+        width: 200px;
+        font-size: 30px;
+    }
+}
